@@ -10,3 +10,13 @@
     --background: rgb(255, 255, 255);
     --box-shadow: 0 5px 20px 1px rgba(0, 0, 0, 0.5);
   }
+
+  [data-theme="dark"] {
+    --primary-color: rgb(7, 161, 250);
+    --primary-variant: #6c63ff;
+    --secondary-color: #03dac5;
+    --on-primary: #000;
+    --on-background: rgba(255, 255, 255, 0.9);
+    --on-background-alt: rgba(255, 255, 255, 0.7);
+    --background: #121212;
+  }
