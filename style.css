@@ -89,3 +89,14 @@
   .about-container {
     display: flex;
   }
+
+  .image-container {
+    border: 1px solid var(--secondary-color);
+    border-radius: 10px;
+    padding: 30px 40px;
+    margin-right: 25px;
+    width: auto;
+    background: var(--background);
+    box-shadow: var(--box-shadow);
+    transition: transform 0.5 ease;
+  }
