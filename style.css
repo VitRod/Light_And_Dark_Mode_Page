@@ -53,3 +53,15 @@
     font-size: 32px;
     font-weight: normal;
   }
+
+  /* Navigation */
+  nav {
+    z-index: 10;  /*always remain on top of every other element, by default everyother element has a z-index of 1*/
+    position: fixed;  /*as the user scrolls the nav bar will always remain on top and in sight*/
+    font-family: Oswald, sans-serif;
+    font-size: 24px;   
+    letter-spacing: 3px; 
+    padding: 25px;         /*all sides have a gap of 25px between our top, bottom, left, right navigation*/
+    width: 100vw;           /*as wide as the window*/ 
+    background: rgb(255 255 255 / 50%);  
+  }
