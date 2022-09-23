@@ -190,3 +190,13 @@
     color: var(--on-background);
     transform: scale(1.2);
   }
+
+   /* Dark Mode Toggle */
+   .theme-switch-wrapper {
+    display: flex;
+    align-items: center;
+    z-index: 100;
+    position: fixed;
+    right: 25px;
+    top: 30px;
+  }
