@@ -219,3 +219,7 @@
     position: relative;
     width: 60px;
   }
+
+  .theme-switch input {
+    display: none;
+  }
