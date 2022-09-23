@@ -84,3 +84,8 @@
   .title-group {
     text-align: center;
   }
+
+  /* About Section */
+  .about-container {
+    display: flex;
+  }
