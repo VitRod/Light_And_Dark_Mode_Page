@@ -245,3 +245,7 @@
     transition: 0.4s;
     width: 26px;
   }
+
+  input:checked + .slider {
+    background: var(--primary-color);
+  }
