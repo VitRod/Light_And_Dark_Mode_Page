@@ -65,3 +65,11 @@
     width: 100vw;           /*as wide as the window*/ 
     background: rgb(255 255 255 / 50%);  
   }
+
+  a {
+    margin-right: 25px;
+    color: var(--primary-color);  /* anchor elements will be primary color*/
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    font-weight: bold;
+  }
