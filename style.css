@@ -176,3 +176,17 @@
     margin: 0;
     line-height: 25px;
   }
+
+  /* Contact Section */
+  .fab {
+    font-size: 100px;
+    margin-right: 50px;
+    cursor: pointer;
+    color: var(--primary-color);
+    transition: transform 0.5s ease;
+  }
+  
+  .fab:hover {
+    color: var(--on-background);
+    transform: scale(1.2);
+  }
