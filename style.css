@@ -79,3 +79,8 @@
     color: var(--on-background);
     border-bottom: 3px solid;
   }
+
+  /* Home Section */
+  .title-group {
+    text-align: center;
+  }
