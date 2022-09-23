@@ -73,3 +73,9 @@
     border-bottom: 3px solid transparent;
     font-weight: bold;
   }
+
+  a:hover,
+  a:focus {
+    color: var(--on-background);
+    border-bottom: 3px solid;
+  }
