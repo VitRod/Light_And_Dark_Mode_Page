@@ -249,3 +249,7 @@
   input:checked + .slider {
     background: var(--primary-color);
   }
+
+  input:checked + .slider::before {
+    transform: translateX(26px);
+  }
