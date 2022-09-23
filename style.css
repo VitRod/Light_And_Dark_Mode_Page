@@ -212,3 +212,14 @@
     right: 5px;
     color: var(--on-background);
   }
+
+  .theme-switch {
+    display: inline-block;
+    height: 34px;
+    position: relative;
+    width: 60px;
+  }
+
+  .theme-switch input {
+    display: none;
+  }
