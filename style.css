@@ -100,3 +100,8 @@
     box-shadow: var(--box-shadow);
     transition: transform 0.5 ease;
   }
+
+  .image-container:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
