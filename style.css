@@ -105,3 +105,8 @@
     cursor: pointer;
     transform: scale(1.1);
   }
+
+  img {
+    height: 300px;
+    width: 300px;
+  }
