@@ -253,3 +253,11 @@
   input:checked + .slider::before {
     transform: translateX(26px);
   }
+
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round::before {
+    border-radius: 50%;
+  }
