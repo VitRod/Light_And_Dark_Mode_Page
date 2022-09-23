@@ -110,3 +110,29 @@
     height: 300px;
     width: 300px;
   }
+
+  /* Projects Section */
+  .buttons {
+    margin-top: 15px;
+    margin-bottom: 50px;
+  }
+
+  button {
+    min-width: 100px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-right: 10px;
+    border: 2px solid var(--primary-color);
+    font-size: 15px;
+    outline: none;
+  }
+  
+  button:disabled {
+    opacity: 0.4;
+    cursor: default;
+  }
+  
+  button:hover:not(.outline) {
+    filter: brightness(110%);
+  }
