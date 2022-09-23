@@ -234,3 +234,14 @@
     top: 0;
     transition: 0.4s;
   }
+
+  .slider::before {
+    background: #fff;
+    bottom: 4px;
+    content: "";
+    height: 26px;
+    left: 4px;
+    position: absolute;
+    transition: 0.4s;
+    width: 26px;
+  }
