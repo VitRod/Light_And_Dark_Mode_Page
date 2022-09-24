@@ -17,7 +17,10 @@ const myMoon = 'fa-moon';
 const dataTheme = 'data-theme';
 
 // Sets Mode Style
+function toggleThemDarkLight(dayNight, nightDay, myMode, sun, moon, modeState) {
 
+
+}
 
 
 
