@@ -29,7 +29,7 @@ function toggleThemDarkLight(dayNight, nightDay, myMode, sun, moon, modeState) {
     image3.src = `img/undraw_feedback_${modeState}.svg`;
 }
 
-
+// Switch Theme Dynamically
 
 
 
