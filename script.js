@@ -12,7 +12,7 @@ const themeDark = 'dark';
 const themeLight = 'light';
 const dayNight1 = 'rgb(255 255 255 / 50%)'; 
 const dayNight2 = 'rgb(0 0 0 / 50%)';
-
+const mySun = 'fa-sun';
 
 
 
