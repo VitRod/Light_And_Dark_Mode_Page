@@ -10,7 +10,7 @@ const nightMode = 'Dark Mode';
 const dayMode = 'Light Mode';
 const themeDark = 'dark';
 const themeLight = 'light';
-
+const dayNight1 = 'rgb(255 255 255 / 50%)'; 
 
 
 
