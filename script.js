@@ -48,7 +48,13 @@ toggleSwitch.addEventListener('change', switchTheme);
 // Check Local Storage for Theme
 const currentTheme = localStorage.getItem('theme');
 
-
+if(currentTheme) {
+    document.documentElement.setAttribute(dataTheme, currentTheme);
+    if(currentTheme === themeDark) {
+        toggleSwitch.checked = true;
+        toggleThemDarkLight(dayNight2, dayNight1, nightMode, mySun, myMoon, themeDark);
+    }
+}
 
 
 
