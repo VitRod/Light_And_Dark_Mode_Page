@@ -8,7 +8,7 @@ const textBox = document.getElementById('text-box');
 
 const nightMode = 'Dark Mode';
 const dayMode = 'Light Mode';
-
+const themeDark = 'dark';
 
 
 
