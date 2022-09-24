@@ -16,7 +16,7 @@ const mySun = 'fa-sun';
 const myMoon = 'fa-moon';
 const dataTheme = 'data-theme';
 
-
+// Sets Mode Style
 
 
 
