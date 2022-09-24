@@ -30,7 +30,7 @@ function toggleThemDarkLight(dayNight, nightDay, myMode, sun, moon, modeState) {
 }
 
 // Switch Theme Dynamically
-
+function switchTheme(event) {
 
 
 
