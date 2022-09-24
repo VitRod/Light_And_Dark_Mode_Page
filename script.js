@@ -31,7 +31,16 @@ function toggleThemDarkLight(dayNight, nightDay, myMode, sun, moon, modeState) {
 
 // Switch Theme Dynamically
 function switchTheme(event) {
-
+    if(event.target.checked) {
+        document.documentElement.setAttribute(dataTheme, themeDark);
+        localStorage.setItem('theme', themeDark);
+        toggleThemDarkLight(dayNight2, dayNight1, nightMode, mySun, myMoon, themeDark);
+    } else {
+        document.documentElement.setAttribute(dataTheme, themeLight);
+        localStorage.setItem('theme', themeLight)
+        toggleThemDarkLight(dayNight1, dayNight2, dayMode, myMoon, mySun, themeLight);
+    }
+}
 
 
 
